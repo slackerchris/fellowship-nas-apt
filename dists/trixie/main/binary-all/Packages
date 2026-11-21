@@ -37,13 +37,13 @@ Package: fellowship-nas-tools
 Version: 0.3.0
 Architecture: all
 Maintainer: slackerchris <slackerchris@gmail.com>
-Installed-Size: 521
-Depends: python3, util-linux, zfsutils-linux, mdadm, xfsprogs, mergerfs, snapraid, hd-idle, smartmontools, openssl, systemd, acl, passwd, grub-common, nftables
+Installed-Size: 529
+Depends: python3, util-linux, zfsutils-linux, mdadm, xfsprogs, mergerfs, snapraid, hd-idle, smartmontools, openssl, systemd, acl, passwd, grub-common, nftables, rsync
 Filename: pool/main/f/fellowship-nas-tools/fellowship-nas-tools_0.3.0_all.deb
-Size: 114464
-MD5sum: 84fc3aef07584224655845ad1a34c5fa
-SHA1: 3a9a5d606a7b244982645f419b328952eea0d9bd
-SHA256: a860b19aa804036516b0f869a516758e7c7625268c93ab2f6b1be16ee77c5fa4
+Size: 116428
+MD5sum: 027c6a83eb860ccaf3daf70def2ce140
+SHA1: a7bfbebf0c3c7a46817a90d2c1507f68d9089bb5
+SHA256: 088eb3b2e67d2c93e9cc0021962a0c739111d6f2536959fc559828ad8b64d43d
 Section: admin
 Priority: optional
 Description: FellowshipNAS command line tools

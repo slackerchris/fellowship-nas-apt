@@ -3,22 +3,22 @@ Label: FellowshipNAS
 Suite: trixie
 Codename: trixie
 Version: 0.3.0
-Date: Sat, 21 Nov 2026 05:42:07 GMT
+Date: Sat, 21 Nov 2026 07:20:20 GMT
 Architectures: amd64 all
 Components: main
 Description: FellowshipNAS updates for Debian trixie
 MD5Sum:
- 7dbda52183fd6fbf6a9e3a1f2e28239a             2323 main/binary-all/Packages
- e2967df0a7405cc126cc3a71282400ad             1093 main/binary-all/Packages.gz
- 2808d43906461fa1557d191096806c24             3257 main/binary-amd64/Packages
- 3a0ef3dc64043ef6b53661288cab68ad             1443 main/binary-amd64/Packages.gz
+ 2fcb81926080bb1f1e3a2bbe34b5e8aa             2330 main/binary-all/Packages
+ 88ad2518ea1a789cad1cfe6d0997264a             1098 main/binary-all/Packages.gz
+ 24d5915081e08af9029ab213a31330c9             3264 main/binary-amd64/Packages
+ 0a7b1815b58d52c9f88ad4b0470c4008             1450 main/binary-amd64/Packages.gz
 SHA256:
- 264ac3fe7ae790bc291640c86b2510ff2e262e9fc5e665d7a19801f829a89569             2323 main/binary-all/Packages
- fa479291fc53bb5f58b9cb8508419c00b134c6de041cc40da44b7a92099720d0             1093 main/binary-all/Packages.gz
- ea400dba1d9f6f1b4fc38b766102cffcec281d5efe7bdae127eb170c1414cb90             3257 main/binary-amd64/Packages
- 337732474d5e05d7b910652de5fbf7c67531aaaf22d6c14786760951e5f0eead             1443 main/binary-amd64/Packages.gz
+ 883207e62cc36e8c1007d5d259609b6003a6093323d433944faaf925500b5021             2330 main/binary-all/Packages
+ 4b5a43e6c99c62732601e293d5d9cd2860933c4697dd077df5652a00e50d1ab4             1098 main/binary-all/Packages.gz
+ 437813e2609f7ad1b754365beb3d8669180afa650b6f0767f65ce2c9a077632b             3264 main/binary-amd64/Packages
+ 1fad538f41588c0cde5f3ff22eb9fbb3ebc3c9be11a62c01710716c23d4b3133             1450 main/binary-amd64/Packages.gz
 SHA512:
- 443b9ae03a7a40106a816e4927a0fd085ed6abc4fed733e5271ada31a530b11621b40f6c69ee1ea2f9a93214cf24e9401d867cedc519d8fbd692b99474872cfe             2323 main/binary-all/Packages
- 7d4bf82e7f79ded5c002e5dd911abe868daf2b46c89e4df9a93a3fecf161fc68b315221ab795f790cd712dd76931ddbafa6f9c36942b0fca15ddb9104e64e682             1093 main/binary-all/Packages.gz
- 7f0872aeaf17af6a999aebabf438d9f565afae9df3b54c03841ab5f0598f2cace7eead3bdf8d7971f1a63bc81a49a46d66d8d0f1063c9c996b3efa3d25fc3f04             3257 main/binary-amd64/Packages
- 42ba015459199fbdd54d2ade2f3792f49a6ff75013647a4e98ecd492d044fb27edce60d037da3921e602dc5696eabc2f049a9cc4b51bbc1882182373f7e1e2b3             1443 main/binary-amd64/Packages.gz
+ 06abee516b80229ef5553817acffa87afdeb48fa4f18014d4e54e06048cdb20e3d0388bd44f518120cbcdf0129986d4f85a1192b9493a9c7178bd84f6b735191             2330 main/binary-all/Packages
+ 7a06e923b760105273583678e70192b7f197a5252429e086c5b738cd955a137730a0ce7550660d4e2530ba08d69ad3e17a488e8d747112acead81e0109a86c13             1098 main/binary-all/Packages.gz
+ 7c568005c0f49fa0ba3e0c4481878fb2838f036692c0675430471fed34ae0fce9a28c7cab03545bf2c5e4b77286386fb9d06f60cf77efcad11ea1d414a94f909             3264 main/binary-amd64/Packages
+ af196a25fa294e17050b8464aadbc07c53b5021ef24a75eb38ed17ead8f7beb4601177082ac1e162ee9951e21811dd88bc72892651ddc959cc176d0830418858             1450 main/binary-amd64/Packages.gz
