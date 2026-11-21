@@ -16,6 +16,24 @@ Description: FellowshipNAS home server role
  with mdadm and XFS, NFS sharing, snapshots, backups, health alerts, and a check
  that keeps the system on a kernel with a working ZFS module.
 
+Package: fellowship-nas
+Version: 0.4.0
+Architecture: all
+Maintainer: slackerchris <slackerchris@gmail.com>
+Installed-Size: 52
+Depends: fellowship-nas-tools (= 0.4.0), zfsutils-linux, zfs-dkms, zfs-zed, nfs-kernel-server, sanoid, smartmontools, msmtp, ca-certificates, cron, linux-image-amd64, linux-headers-amd64
+Filename: pool/main/f/fellowship-nas/fellowship-nas_0.4.0_all.deb
+Size: 6160
+MD5sum: 64483c84cd9296621429f8b3a7243434
+SHA1: 3e997eb8feb1c0d6d5f4e580627ea977a978c6a3
+SHA256: dab8bd476e17bca2d8a5e47951f3288f832b0c06f3e0c1d0b426d2c48a090929
+Section: admin
+Priority: optional
+Description: FellowshipNAS home server role
+ Everything the FellowshipNAS role needs: ZFS and its tools, traditional RAID
+ with mdadm and XFS, NFS sharing, snapshots, backups, health alerts, and a check
+ that keeps the system on a kernel with a working ZFS module.
+
 Package: fellowship-nas-smb
 Version: 0.3.0
 Architecture: all
@@ -27,6 +45,23 @@ Size: 2000
 MD5sum: 59f856c3f03d18fb7a4c171dbcfd2855
 SHA1: 8e73cc06e77db97ca6db89880aed8262ea6f6edf
 SHA256: b478f2297a429d42d42b378b84aa213972b25adbdfcfdb7c5beda7e9c6000da6
+Section: admin
+Priority: optional
+Description: FellowshipNAS SMB sharing
+ Samba for FellowshipNAS shares, plus the discovery services that show the
+ server in Windows Network and in the macOS Finder.
+
+Package: fellowship-nas-smb
+Version: 0.4.0
+Architecture: all
+Maintainer: slackerchris <slackerchris@gmail.com>
+Installed-Size: 14
+Depends: fellowship-nas-tools (= 0.4.0), samba, wsdd2, avahi-daemon, tdb-tools
+Filename: pool/main/f/fellowship-nas-smb/fellowship-nas-smb_0.4.0_all.deb
+Size: 2004
+MD5sum: 384f587c1b531d326bd8d277f059fb0d
+SHA1: 80901fee50dfba32a04869e0436ee7afb6688f30
+SHA256: 3d93b88f6288b5867a47806770640b3b06f2b1f2e22774239aaf684882e68280
 Section: admin
 Priority: optional
 Description: FellowshipNAS SMB sharing
@@ -52,6 +87,25 @@ Description: FellowshipNAS command line tools
  for the FellowshipNAS web interface and for use over SSH, and the script that
  sends every alert.
 
+Package: fellowship-nas-tools
+Version: 0.4.0
+Architecture: all
+Maintainer: slackerchris <slackerchris@gmail.com>
+Installed-Size: 529
+Depends: python3, util-linux, zfsutils-linux, mdadm, xfsprogs, mergerfs, snapraid, hd-idle, smartmontools, openssl, systemd, acl, passwd, grub-common, nftables, rsync
+Filename: pool/main/f/fellowship-nas-tools/fellowship-nas-tools_0.4.0_all.deb
+Size: 116480
+MD5sum: b1969f01e64ad01f4bdb28a8f131d083
+SHA1: bd012ae464d8798228a6640a7a5b8d7eb4efb8ed
+SHA256: dd214686aa816f1acc1eac2e02580f4cf0c6d91d6db3f457cd98ffcbcc624eb8
+Section: admin
+Priority: optional
+Description: FellowshipNAS command line tools
+ The fnas helper, which validates and carries out storage, sharing and
+ protection changes
+ for the FellowshipNAS web interface and for use over SSH, and the script that
+ sends every alert.
+
 Package: fellowship-nas-web
 Version: 0.3.0
 Architecture: amd64
@@ -65,6 +119,27 @@ Size: 5079284
 MD5sum: 0f6ca3a072df1960b6288804866713fb
 SHA1: 6623f50037328bebfafe4bba57bc037faaf6e989
 SHA256: 802ae29e3fa5f7d8306f62b282febf642976936ca5655f070882cb7a6827fa59
+Section: admin
+Priority: optional
+Description: FellowshipNAS desktop in the browser
+ A web server, written for FellowshipNAS, that serves a windowed desktop for
+ managing storage, shares, health and alerts. The part facing the network runs
+ without special rights; a small helper checks passwords with PAM and runs
+ fnas for members of the nas-admins group.
+
+Package: fellowship-nas-web
+Version: 0.4.0
+Architecture: amd64
+Maintainer: slackerchris <slackerchris@gmail.com>
+Installed-Size: 12684
+Depends: fellowship-nas-tools (= 0.4.0), libpam-runtime, adduser, libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1)
+Conflicts: fellowship-desktop
+Replaces: fellowship-desktop
+Filename: pool/main/f/fellowship-nas-web/fellowship-nas-web_0.4.0_amd64.deb
+Size: 5079236
+MD5sum: 458fe6cf706c00389dc4004e970988c5
+SHA1: c63d66aab567dfae557e97aedb49645175b10cad
+SHA256: ea0321bbac8cbe17e29500e4bce7e6d2abced3038f2297face15f4a97aaabdb3
 Section: admin
 Priority: optional
 Description: FellowshipNAS desktop in the browser
