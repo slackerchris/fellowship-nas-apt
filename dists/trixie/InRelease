@@ -6,11 +6,10 @@ Label: FellowshipNAS
 Suite: trixie
 Codename: trixie
 Version: 0.3.0
-Date: Sat, 21 Nov 2026 05:38:00 GMT
+Date: Sat, 21 Nov 2026 05:42:07 GMT
 Architectures: amd64 all
 Components: main
 Description: FellowshipNAS updates for Debian trixie
-
 MD5Sum:
  7dbda52183fd6fbf6a9e3a1f2e28239a             2323 main/binary-all/Packages
  e2967df0a7405cc126cc3a71282400ad             1093 main/binary-all/Packages.gz
@@ -28,17 +27,17 @@ SHA512:
  42ba015459199fbdd54d2ade2f3792f49a6ff75013647a4e98ecd492d044fb27edce60d037da3921e602dc5696eabc2f049a9cc4b51bbc1882182373f7e1e2b3             1443 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEaSPtB0AyltxVW0W9U6oww+9ge6QFAmsBLjgACgkQU6oww+9g
-e6SQbA//RB96gVmLLo3m6DrYTrWWt51dj1+LbLzVQ6gYGXNY82/wmsaDvn4k3Dn5
-KRDRTTF7MifQLT4CCGyPWSIYKv7LXuzOKL1S5UqpAVdpMBGi8u0FvdA1HMAQbURL
-bFfoys6qCjETikLjeRvPLMz+xIgrv7dkYKI9uYYzZLRIhe9SAUXO2OettxEnIUYo
-Cq0dCGJ8agMPqWdA3R89aAcjtQ0rAP+swklc8CR7vKb8LN0Eoe89IrDhLRaR7iwI
-Ckr5nncw+qXjJyy1Sh8uFBwNY/C/pca2miEGppErPpl1gugq+c7J1vhfU7gIwl55
-/nFwN6QquEykd3vKbHHvaL2yAJyq9XqjIR4uba00OrEOgYQ85CFvvTwwonltSA1a
-UPD16eCENJNfhSlMczrmAYelzcy+GxmLpIZrgQTTptr15nWCD7nPXl0+uoYeBvDH
-42IigQjLuQKcqw+WI86BdL5Dhb4TnU72PU8awsH42vwtI6u/WEAoEgR8VFnLKeOH
-2PXT5FxuTBwnjPjzAdkSBJdQcm8oht8vS2R5Yz7aj7tnFXlGWABeSpbBl3e87gJq
-o6YUjO5vmiCHP33LsLUuaAB8c0C0GHxTml1aftdAFC1qQ+o7RCovJ4CaLaHx6qaE
-8EFdOamBUGyrPYmSWYF6K8uXM11Oo7oJPNsbbl26nHy/2KzxapA=
-=sbsc
+iQIzBAEBCgAdFiEEaSPtB0AyltxVW0W9U6oww+9ge6QFAmsBLy8ACgkQU6oww+9g
+e6RSIg/+OOVPGGTmvs9KN0rOKRxah+ag7WPN+xRJSrJ2B+bExCHRno3mLxCt0KGT
+S3DstvU0enb7qaF0FO7+gnyMVN7rObB48QGA1NwhdSCS5TWct7zN7to6293l8jxu
+X/zRbKt/JwUTKsOd3LorMsL51wlZ3LN+SpeXm/0mNlrxuSPy02vRdHwxgaR/RVPa
+yji9idMpCJfH/wrFzpS+C7S56kaYkptcKU49Uroi+uNUl6EYtvgxcTr0mFCqs0is
+3CXquZIqHSsSlq1n1G9enpeGN8zQAgEhp2YLD9ePcSlsBaEBFcCaYLSL9rQRoF+D
+t9zATR1EDoQkwiRLiy0ukPLWkEAMmuU/gvFFVBFK919QfI/yQnX+E8s0r+sXClZD
+tS5wXldj3L79o7aAMHHXGdgIrj1E9e1k5h2qP7zOMgi7OuDfqbZbCeYD3Mkcv2Dj
+PiN03dZ4PLAYsYZE0yEco2L9zSfUnnDmxD7o9UXQIel9LoXm1YaZSyxQAbPQfZ/X
+LWn/3AOrCyUSr6w5WaKbiDxvUHApuhiNVvY6OVTfNK0tXMsZoPGgCaSPrnJD7Ww9
+6/DPjjtgpPjECvKAskX828N+aT/KGVPshdqsFtlzHJ2zcWdzkgypPUuqi3xs8BVO
+9or4q01Wk3TLbkJ543zFNDlpdFAtrHZJ5fyIwOkfSd3sGiqAk18=
+=DXpw
 -----END PGP SIGNATURE-----

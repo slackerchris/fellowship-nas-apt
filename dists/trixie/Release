@@ -3,11 +3,10 @@ Label: FellowshipNAS
 Suite: trixie
 Codename: trixie
 Version: 0.3.0
-Date: Sat, 21 Nov 2026 05:38:00 GMT
+Date: Sat, 21 Nov 2026 05:42:07 GMT
 Architectures: amd64 all
 Components: main
 Description: FellowshipNAS updates for Debian trixie
-
 MD5Sum:
  7dbda52183fd6fbf6a9e3a1f2e28239a             2323 main/binary-all/Packages
  e2967df0a7405cc126cc3a71282400ad             1093 main/binary-all/Packages.gz
